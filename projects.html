@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS: import custom version with custom color palette -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="sticky-top">
+      <nav class="navbar navbar-toggleable navbar-inverse bg-primary">
+        <button class="navbar-toggler navbar-toggler-right bg-info" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+          <a id="brand" class="navbar-brand open-sans" href="index.html">Jeffrey F. How</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto nav-pills">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white btn-primary" href="#" id="idDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                <div class="dropdown-menu" aria-labelledby="idDropdownMenuLink">
+                  <a class="dropdown-item" href="index.html">About Me</a>
+                  <a class="dropdown-item" href="values.html">Values</a>
+                  <a class="dropdown-item" href="contact.html">Contact</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white btn-primary" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white btn-primary" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white  btn-primary" href="#" id="passionsDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Passions</a>
+                <div class="dropdown-menu" aria-labelledby="passionsDropdownMenuLink">
+                  <a class="dropdown-item" href="yoga.html">Yoga</a>
+                  <a class="dropdown-item" href="reading.html">Reading</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="shadebreak "></div>
+    </div>
+    <!-- Filters -->
+    <div class="container filter-forms">
+      <form id="projects-form">
+        <fieldset class="form-group">
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" name="catRadios" id="catRadios77" value="option77" checked>
+              <span class="proj-icon mr-2">
+                <img src="svg/zap-gray.svg" alt="zap-icon" />
+              </span>
+              77Sparx Studio
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" name="catRadios" id="catRadiosImm" value="optionImm" checked>
+              <span class="proj-icon mr-2">
+                <img src="svg/pulse-gray.svg" alt="pulse-icon" />
+              </span>
+              Immersion
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" name="catRadios" id="catRadiosCon" value="optionCon" checked>
+              <span class="proj-icon mr-2">
+                <img src="svg/mortar-board-gray.svg" alt="mortar-board-icon" />
+              </span>
+              Concordia University
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" name="catRadios" id="catRadiosPer" value="optionPer" checked>
+              <span class="proj-icon">
+                <img src="svg/person-gray.svg" alt="person-icon"/>
+              </span>
+              Personal
+            </label>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <!-- Accordion -->
+    <div class="container content">
+      <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="card catPer">
+          <div class="card-header" role="tab" id="headingYFC">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseYFC" aria-expanded="false" aria-controls="collapseYFC" id="titleYFC">
+                <span class="float-left">
+                  <span class="proj-icon">
+                    <img src="svg/person-gray.svg" alt="person-icon"/>
+                  </span>
+                  Yoga Pose Flashcards
+                </span>
+                <span class="float-right">May 2017 - Present</span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseYFC" class="collapse" role="tabpanel" aria-labelledby="headingYFC">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>In the process of building a Yoga Pose Flashcard app for Android (and eventually Swift).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card catPer">
+          <div class="card-header" role="tab" id="headingJFH">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseJFH" aria-expanded="false" aria-controls="collapseJFH" id="titleJFH">
+                <span class="float-left">
+                  <span class="proj-icon">
+                    <img src="svg/person-gray.svg" alt="person-icon"/>
+                  </span>
+                  Jeffreyfhow.com
+                </span>
+                <span class="float-right">May 2017 - Present</span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseJFH" class="collapse" role="tabpanel" aria-labelledby="headingJFH">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Creating website using <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>jQuery</b>, and <b>Bootstrap 4</b></li>
+                  <li>Used Bootstrap's Grid for layout</li>
+                  <li>Implemented accordion using Bootstrap</li>
+                  <li>Used HTML and jQuery to dynamically filter accordion</li>
+                </ul>
+              </div>
+              <div class="col col-12 col-lg-2">
+                <a class="btn btn-outline-secondary proj-button" href="#" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/mark-github-gray.svg" alt="github-icon"/></span></div>
+                    <div class="col col-9 p-0">Code</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card cat77">
+          <div class="card-header" role="tab" id="headingZoo">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseZoo" aria-expanded="false" aria-controls="collapseZoo" id="titleZoo">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/zap-gray.svg" alt="zap-icon" />
+                  </span>
+                  <span class="hidden-md-up">Unnamed Game</span>
+                  <span class="hidden-sm-down">Unnamed RTS Mobile Game</span>
+                </span>
+                <span class="float-right">
+                  <span class="hidden-md-up">Jan 2017 - Present</span>
+                  <span class="hidden-sm-down">January 2017 - Present</span>
+                </span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseZoo" class="collapse" role="tabpanel" aria-labelledby="headingZoo">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Implementing 2D <b>UI</b> Menus using <b>C#</b> and <b>Unity Engine</b></li>
+                  <li>User interface included common controls such as buttons, scrollviews and sliders</li>
+                  <li>Created animations using <b>DOTween</b> engine.</li>
+                </ul>
+                <p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card cat77">
+          <div class="card-header" role="tab" id="headingPZO">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsePZO" aria-expanded="false" aria-controls="collapsePZO" id="titlePZO">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/zap-gray.svg" alt="zap-icon" />
+                  </span>
+                  Puzzingo Puzzles
+                </span>
+                <span class="float-right">
+                  <span class="hidden-md-up">Sep 2013 - May 2017</span>
+                  <span class="hidden-sm-down">September 2013 - May 2017</span>
+                </span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapsePZO" class="collapse" role="tabpanel" aria-labelledby="headingPZO">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Proposed, planned, and created 11 new puzzle packs and 20 diverse minigames for Puzzingo, a highly successful and award-winning children’s app</li>
+                  <li>Regularly collaborated with remote art team via Google Hangouts, Slack, or GoToMeeting in all stages of product lifecycle, including conception, planning, design, implementation, and retrospective</li>
+                  <li>Performed A/B testing with in-house analytics tools to investigate alternative user experiences</li>
+                  <li>Led team discussions for new content proposals, post-project retrospectives, and long-term decision-making</li>
+                  <li>Created a Lua program that automates a previously manual data-entry process by parsing CSV files and outputting their data into formats compatible with our codebase</li>
+                  <li>Built custom libraries in Lua to handle particle effects, audio, and Spine animations</li>
+                  <li>Planned and successfully executed a project-wide refactor in response to Corona SDK’s Graphics 2.0 update</li>
+                </ul>
+              </div>
+              <div class="col col-12 col-lg-2">
+                <a class="btn btn-outline-secondary proj-button" href="#" role="button" data-toggle="modal" data-target="#pzoModal">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/device-camera-video-gray.svg" alt="device-camera-video-icon"/></span></div>
+                    <div class="col col-9 p-0">Video</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card catImm">
+          <div class="card-header" role="tab" id="headingImm">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseImm" aria-expanded="false" aria-controls="collapseImm">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/pulse-gray.svg" alt="pulse-icon" />
+                  </span>
+                  Immersion
+                </span>
+                <span class="float-right">
+                  <span class="hidden-md-up">May 2012 - Aug 2012</span>
+                  <span class="hidden-sm-down">May 2012 - August 2012</span>
+                </span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseImm" class="collapse" role="tabpanel" aria-labelledby="headingImm">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Designed user-interface dialog windows in Microsoft Visual Studios using C++ and the Microsoft Foundation Class library</li>
+                  <li>Brainstormed, prototyped, and developed a software feature in C++, which read data from customized media files, and used template files to create and execute new Android projects at runtime</li>
+                  <li>Fixed bugs found in various software applications</li>
+                  <li>Gained experience in Agile methodology while participating in daily scrums</li>
+                </ul>
+              </div>
+              <div class="col col-12 col-lg-2">
+                <a class="btn btn-outline-secondary proj-button" href="assets/ImmersionEvaluation.pdf" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/file-gray.svg" alt="file-icon"/></span></div>
+                    <div class="col col-9 p-0">Evaluation</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card catCon">
+          <div class="card-header" role="tab" id="headingCId">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseCId" aria-expanded="false" aria-controls="collapseCId">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/mortar-board-gray.svg" alt="mortar-board-icon" />
+                  </span>
+                  <span class="hidden-md-up">Collocation Identifier</span>
+                  <span class="hidden-sm-down">Statistical Language Processing Project: Collocation Identifier</span>
+                </span>
+                <span class="float-right">
+                  <span class="hidden-md-up">Jun 2013</span>
+                  <span class="hidden-sm-down">June 2013</span>
+                </span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseCId" class="collapse" role="tabpanel" aria-labelledby="headingCId">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Created a program in Java, which statistically analyzes marked-up text corpora to identify bi-gram collocations</li>
+                </ul>
+              </div>
+              <div class="col col-12 col-lg-2">
+                <a class="btn btn-outline-secondary proj-button" href="https://github.com/jeffreyfhow/CollocationIdentifier" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/mark-github-gray.svg" alt="github-icon"/></span></div>
+                    <div class="col col-9 p-0">Code</div>
+                  </div>
+                </a>
+                <a class="btn btn-outline-secondary proj-button" href="assets/CollocationAnalysis.pdf" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/file-gray.svg" alt="github-icon"/></span></div>
+                    <div class="col col-9 p-0">Document</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card catCon">
+          <div class="card-header" role="tab" id="headingWSD">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseWSD" aria-expanded="false" aria-controls="collapseWSD">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/mortar-board-gray.svg" alt="mortar-board-icon" />
+                  </span>
+                  <span class="hidden-md-up">Word Sense Disambiguator</span>
+                  <span class="hidden-sm-down">Statistical Language Processing Project: Word Sense Disambiguator</span>
+                </span>
+                <span class="float-right">May 2013</span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseWSD" class="collapse" role="tabpanel" aria-labelledby="headingWSD">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Developed a Java program that assigns a word sense to a lexeme by using Senseval-3 corpora and Naïve Bayes classification.</li>
+                </ul>
+              </div>
+              <div class="col col-12 col-lg-2">
+                <a class="btn btn-outline-secondary proj-button" href="https://github.com/jeffreyfhow/WordSenseClassifier" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/mark-github-gray.svg" alt="github-icon"/></span></div>
+                    <div class="col col-9 p-0">Code</div>
+                  </div>
+                </a>
+                <a class="btn btn-outline-secondary proj-button" href="assets/WSDAnalysis.pdf" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/file-gray.svg" alt="github-icon"/></span></div>
+                    <div class="col col-9 p-0">Document</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card catCon">
+          <div class="card-header" role="tab" id="headingSFl">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSFl" aria-expanded="false" aria-controls="collapseSFl">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/mortar-board-gray.svg" alt="mortar-board-icon" />
+                  </span>
+                  <span class="hidden-md-up">Superflash</span>
+                  <span class="hidden-sm-down">Advanced Game Development Group Project: Superflash</span>
+                </span>
+                <span class="float-right">
+                  <span class="hidden-md-up">Jan 2013 - Apr 2013</span>
+                  <span class="hidden-sm-down">January 2013 - April 2013</span>
+                </span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseSFl" class="collapse" role="tabpanel" aria-labelledby="headingSFl">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <p><a href="https://www.youtube.com/watch?v=FiK3I25IfAo">Superflash</a> is a 2D action arcade game in which the player controls a streaker whose goal is to attract attention and wreak havoc in a school. The streaker must dance, dodge and disgust in order to complete objectives and win notoriety points. With its stylized visuals, catchy music, action-packed game play and overall ridiculousness, players of all ages will want to "let it all hang out". Note: The video does not do justice to the smoothness of the gameplay.</p>
+                <ul class="proj-list">
+                  <li>Designed and developed a 2D action arcade game using C# and XNA</li>
+                  <li>Implemented NPC artificial intelligence via finite state machine and decision tree concepts</li>
+                </ul>
+              </div>
+              <div class="col col-12 col-lg-2">
+                <a class="btn btn-outline-secondary proj-button" href="assets/SuperflashReport.pdf" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/file-gray.svg" alt="github-icon"/></span></div>
+                    <div class="col col-9 p-0">Document</div>
+                  </div>
+                </a>
+                <a class="btn btn-outline-secondary proj-button" href="https://www.youtube.com/watch?v=FiK3I25IfAo" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/device-camera-video-gray.svg" alt="device-camera-video-icon"/></span></div>
+                    <div class="col col-9 p-0">Video</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card catCon">
+          <div class="card-header" role="tab" id="headingMoo">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseMoo" aria-expanded="false" aria-controls="collapseMoo">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/mortar-board-gray.svg" alt="mortar-board-icon" />
+                  </span>
+                  <span class="hidden-md-up">Moon Code Compiler</span>
+                  <span class="hidden-sm-down">Compiler Design Project: Moon Assembly Code Compiler</span>
+                </span>
+                <span class="float-right">
+                  <span class="hidden-md-up">Jan 2013 - Apr 2013</span>
+                  <span class="hidden-sm-down">January 2013 - April 2013</span>   
+                </span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseMoo" class="collapse" role="tabpanel" aria-labelledby="headingMoo">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Using a given grammar, designed and developed a compiler that performs lexical, syntactical and semantic analysis on input source code</li>
+                  <li>Implemented error detection and response at all stages</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card catCon">
+          <div class="card-header" role="tab" id="headingBIS">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseBIS" aria-expanded="false" aria-controls="collapseBIS">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/mortar-board-gray.svg" alt="mortar-board-icon" />
+                  </span>
+                  <span class="hidden-md-up">Inventory System</span>
+                  <span class="hidden-sm-down">Databases Group Project: Bookstore Inventory System</span>
+                </span>
+                <span class="float-right">
+                  <span class="hidden-md-up">Jan 2013 - Apr 2013</span>
+                  <span class="hidden-sm-down">January 2013 - April 2013</span>
+                </span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseBIS" class="collapse" role="tabpanel" aria-labelledby="headingBIS">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Designed database architecture, including E/R diagrams, relational schemas, and SQL queries for a given bookstore context</li>
+                </ul>
+              </div>
+              <div class="col col-12 col-lg-2">
+                <a class="btn btn-outline-secondary proj-button" href="assets/MontrealBookstoreInventoryManagementSystem.pdf" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/file-gray.svg" alt="github-icon"/></span></div>
+                    <div class="col col-9 p-0">Document</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card catCon">
+          <div class="card-header" role="tab" id="headingMag">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseMag" aria-expanded="false" aria-controls="collapseMag">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/mortar-board-gray.svg" alt="mortar-board-icon" />
+                  </span>
+                  <span class="hidden-md-up">Magnetic Cave AI</span>
+                  <span class="hidden-sm-down">Artificial Intelligence Group Project: Magnetic Cave AI</span>
+                </span>
+                <span class="float-right">
+                  <span class="hidden-md-up">Sep 2012 - Dec 2012</span>
+                  <span class="hidden-sm-down">September 2012 - December 2012</span>
+                </span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseMag" class="collapse" role="tabpanel" aria-labelledby="headingMag">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Built artificial intelligence that plays the “Magnetic Cave” board game using the minimax algorithm</li>
+                  <li>Designed and implemented A.I. decision-making heuristic</li>
+                </ul>
+              </div>
+              <div class="col col-12 col-lg-2">
+                <a class="btn btn-outline-secondary proj-button" href="https://github.com/jeffreyfhow/MagneticCaveAI" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/mark-github-gray.svg" alt="github-icon"/></span></div>
+                    <div class="col col-9 p-0">Code</div>
+                  </div>
+                </a>
+                <a class="btn btn-outline-secondary proj-button" href="assets/Concordia_AI_MagCave.pdf" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/file-gray.svg" alt="github-icon"/></span></div>
+                    <div class="col col-9 p-0">Document</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card catCon">
+          <div class="card-header" role="tab" id="headingEv3">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEv3" aria-expanded="false" aria-controls="collapseEv3">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/mortar-board-gray.svg" alt="mortar-board-icon" />
+                  </span>
+                  <span class="hidden-md-up">Evicted 3D Game</span>
+                  <span class="hidden-sm-down">Game Development Group Project: Evicted 3D Game</span>
+                </span>
+                <span class="float-right">
+                  <span class="hidden-md-up">Sep 2012 - Dec 2012</span>
+                  <span class="hidden-sm-down">September 2012 - December 2012</span>
+                </span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseEv3" class="collapse" role="tabpanel" aria-labelledby="headingEv3">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Developed a 3D FPS game in C# and XNA</li>
+                </ul>
+                <p></p>
+              </div>
+              <div class="col col-12 col-lg-2">
+                <a class="btn btn-outline-secondary proj-button" href="assets/EvictedGameDesignDocument.pdf" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/file-gray.svg" alt="file-icon"/></span></div>
+                    <div class="col col-9 p-0">Document</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card catCon">
+          <div class="card-header" role="tab" id="headingPLI">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsePLI" aria-expanded="false" aria-controls="collapsePLI">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/mortar-board-gray.svg" alt="mortar-board-icon" />
+                  </span>
+                  <span class="hidden-md-up">Language Identification System</span>
+                  <span class="hidden-sm-down">Artificial Intelligence Project: Probabilistic Language Identification System</span>
+                </span>
+                <span class="float-right">
+                  <span class="hidden-md-up">Nov 2012</span>
+                  <span class="hidden-sm-down">November 2012</span>
+                </span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapsePLI" class="collapse" role="tabpanel" aria-labelledby="headingPLI">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Created a Java program, which uses a character-based language model to identify the most probable language (English, French or Spanish) for user-input text</li>
+                </ul>
+                <p></p>
+              </div>
+              <div class="col col-12 col-lg-2">
+                <a class="btn btn-outline-secondary proj-button" href="https://github.com/jeffreyfhow/LanguageIdentifier" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/mark-github-gray.svg" alt="github-icon"/></span></div>
+                    <div class="col col-9 p-0">Code</div>
+                  </div>
+                </a>
+                <a class="btn btn-outline-secondary proj-button" href="assets/LangIDDoc.pdf" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/file-gray.svg" alt="file-icon"/></span></div>
+                    <div class="col col-9 p-0">Document</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card catCon">
+          <div class="card-header" role="tab" id="headingPB3">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsePB3" aria-expanded="false" aria-controls="collapsePB3">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/mortar-board-gray.svg" alt="mortar-board-icon" />
+                  </span>
+                  <span class="hidden-md-up">Puzzle Bobble 3D Game</span>
+                  <span class="hidden-sm-down">Game Development Project: Puzzle Bobble 3D Game</span>
+                </span>
+                <span class="float-right">
+                  <span class="hidden-md-up">Nov 2012</span>
+                  <span class="hidden-sm-down">November 2012</span>
+                </span>        
+              </a>
+            </h5>
+          </div>
+          <div id="collapsePB3" class="collapse" role="tabpanel" aria-labelledby="headingPB3">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Built a 3D interpretation of “Puzzle Bobble” using C# and XNA</li>
+                </ul>
+                <p></p>
+              </div>
+              <div class="col col-12 col-lg-2">
+                <a class="btn btn-outline-secondary proj-button" href="#" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/file-gray.svg" alt="file-icon"/></span></div>
+                    <div class="col col-9 p-0">Document</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card catCon">
+          <div class="card-header" role="tab" id="headingNE3">
+            <h5 class="mb-0">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNE3" aria-expanded="false" aria-controls="collapseNE3">
+                <span class="float-left">
+                  <span class="proj-icon mr-2">
+                    <img src="svg/mortar-board-gray.svg" alt="mortar-board-icon" />
+                  </span>
+                  <span class="hidden-md-up">Nether Earth 3D</span>
+                  <span class="hidden-sm-down">Computer Graphics Group Project: Nether Earth 3D</span>
+                </span>
+                <span class="float-right">
+                  <span class="hidden-md-up">Jan 2012 - Apr 2012</span>
+                  <span class="hidden-sm-down">January 2012 - April 2012</span>
+                </span>
+              </a>
+            </h5>
+          </div>
+          <div id="collapseNE3" class="collapse" role="tabpanel" aria-labelledby="headingNE3">
+            <div class="card-block row ml-0">
+              <div class="col col-12 col-lg-10">
+                <ul class="proj-list">
+                  <li>Created a 3D interpretation of classic game “Nether Earth”</li>
+                  <li>Modeled and animated visual components using C++ and the OpenGL library</li>
+                </ul>
+              </div>
+              <div class="col col-12 col-lg-2">
+                <a class="btn btn-outline-secondary proj-button" href="assets/NetherEarth.pdf" role="button">
+                  <div class="row proj-button-content">
+                    <div class="col col-3 p-0"><span class="proj-icon mr-0"><img src="svg/file-gray.svg" alt="file-icon"/></span></div>
+                    <div class="col col-9 p-0">Document</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div id="pzoModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content video-modal">
+          <div class="modal-header py-1">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe id="pzoFrame" src="https://www.youtube.com/embed/WMjq05ysyU8" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="container">
+      <p>&copy; 2017 Jeffrey F. How</p>
+    </footer>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/projects.js"></script>
+  </body>
+</html>
