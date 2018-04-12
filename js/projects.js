@@ -16,6 +16,12 @@ $(function(){
 		$('#pzoFrame').attr('src', url);
 	})
 
+	jQuery("div#clawModal").on("hide.bs.modal", function(e) {
+		var url = $('#clawFrame').attr('src');
+		$('#clawFrame').attr('src', '');
+		$('#clawFrame').attr('src', url);
+	})
+
 	// Scroll to collapsible shown
  	$('.collapse').on('shown.bs.collapse', function (e) {
 		var offset = $(e.target).offset();
