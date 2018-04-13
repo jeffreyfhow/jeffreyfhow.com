@@ -29,5 +29,5 @@ $(function(){
 	})
 
  	// Default collapsible when entering page
-	$(location.hash || '#collapsePZO').collapse('show');
+	$(location.hash).collapse('show');
 })
