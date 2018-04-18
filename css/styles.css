@@ -10,7 +10,7 @@ body {
 	font-family: 'Open Sans Condensed', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 1.1rem;
 	letter-spacing: .025rem;
-	color: #9FA19F;
+	color: #7F807F;
 	min-height: 100%;
 	height: 100%;
 }
@@ -92,6 +92,7 @@ span.proj-icon {
 	margin: auto;
 	padding: 0px;
 	width:95px;
+	color: #7F807F;
 }
 
 .proj-list {
